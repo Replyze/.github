@@ -9,10 +9,9 @@
 
 ### AI customer support: an AI agent that answers from your docs, live chat on your website and one inbox for every channel
 
-[![Website](https://img.shields.io/badge/Website-replyze.chat-1eabd2?style=for-the-badge)](https://replyze.chat/?utm_source=github&utm_medium=profile)
-[![Sign up](https://img.shields.io/badge/Dashboard-Sign_up-0b0f17?style=for-the-badge)](https://client.replyze.chat/register?utm_source=github&utm_medium=profile)
+[![Create a free account](https://img.shields.io/badge/Create_a_free_account-1eabd2?style=for-the-badge)](https://client.replyze.chat/register?utm_source=github&utm_medium=profile&utm_content=cta-top)
+[![Live demo](https://img.shields.io/badge/Live_demo-replyze.chat-0b0f17?style=for-the-badge)](https://replyze.chat/?utm_source=github&utm_medium=profile&utm_content=live-demo)
 [![Developer docs](https://img.shields.io/badge/Developers-Docs-2ea44f?style=for-the-badge)](https://github.com/Replyze/replyze)
-[![Integrations](https://img.shields.io/badge/Integrations-All_platforms-8a63d2?style=for-the-badge)](https://replyze.chat/integrations?utm_source=github&utm_medium=profile)
 
 </div>
 
@@ -26,9 +25,25 @@
 - **Help center** with articles that the AI answers from, and that customers can read on their own.
 - **API, webhooks and an MCP server**, so your own tools and AI assistants can work with your conversations.
 
-Plans and prices: [replyze.chat/pricing](https://replyze.chat/pricing?utm_source=github&utm_medium=profile).
+The live demo is replyze.chat itself: the chat bubble in the corner of [replyze.chat](https://replyze.chat/?utm_source=github&utm_medium=profile&utm_content=live-demo) is the Replyze widget. Plans: [replyze.chat/pricing](https://replyze.chat/pricing?utm_source=github&utm_medium=profile).
 
-## Add the chat to your website
+## Start in two minutes
+
+1. [Create a free account](https://client.replyze.chat/register?utm_source=github&utm_medium=profile&utm_content=quickstart) and copy your widget token (`wgt_...`) from **Settings → Integrations → Install widget**.
+2. Pick your stack:
+
+| You use | Start here | Install |
+|---|---|---|
+| Any website: HTML, Shopify, Wix, Squarespace, Webflow, Framer, Ghost, GTM | [add-live-chat-to-website](https://github.com/Replyze/add-live-chat-to-website) | one `<script>` tag |
+| WordPress or WooCommerce | [wordpress-live-chat](https://github.com/Replyze/wordpress-live-chat) | [`replyze.zip`](https://github.com/Replyze/wordpress-live-chat/releases/latest/download/replyze.zip) → Plugins → Upload |
+| React or Next.js | [react-live-chat](https://github.com/Replyze/react-live-chat) | `npm install github:Replyze/react-live-chat` |
+| Vue or Nuxt | [vue-live-chat](https://github.com/Replyze/vue-live-chat) | `npm install github:Replyze/vue-live-chat` |
+| React Native or Expo | [react-native-live-chat](https://github.com/Replyze/react-native-live-chat) | `npm install github:Replyze/react-native-live-chat` |
+| Flutter | [flutter-live-chat](https://github.com/Replyze/flutter-live-chat) | git dependency in `pubspec.yaml` |
+| Your backend: REST API, webhooks, OpenAPI | [replyze](https://github.com/Replyze/replyze) | an API key from **Settings → Integrations → Developer** |
+| Claude, ChatGPT, Cursor, VS Code | [replyze-mcp](https://github.com/Replyze/replyze-mcp) · [knowledge-base-mcp-server](https://github.com/Replyze/knowledge-base-mcp-server) | a remote MCP URL, nothing to host |
+
+On a plain website, this is all it takes:
 
 ```html
 <script>
@@ -40,23 +55,11 @@ Plans and prices: [replyze.chat/pricing](https://replyze.chat/pricing?utm_source
 <script src="https://cdn.replyze.chat/widget.js" async></script>
 ```
 
-Your token is in the [dashboard](https://client.replyze.chat/?utm_source=github&utm_medium=profile): Settings → Integrations → Install widget. Step-by-step code for WordPress, Shopify, Wix, Webflow, Next.js, Vue, Laravel and more: [add-live-chat-to-website](https://github.com/Replyze/add-live-chat-to-website).
-
-## Integrations
-
-| Repository | What is inside |
-|---|---|
-| [react-live-chat](https://github.com/Replyze/react-live-chat) | React and Next.js component and hooks: the chat loads after your page, with typed events and identity verification |
-| [wordpress-live-chat](https://github.com/Replyze/wordpress-live-chat) | WordPress plugin: the chat on any WordPress or WooCommerce site, signed-in customers recognized |
-| [react-native-live-chat](https://github.com/Replyze/react-native-live-chat) | Live chat and AI support inside React Native and Expo apps |
-| [flutter-live-chat](https://github.com/Replyze/flutter-live-chat) | Live chat and AI support inside Flutter apps for iOS and Android |
-| [add-live-chat-to-website](https://github.com/Replyze/add-live-chat-to-website) | Copy-paste install code for every common website platform and framework |
-
 ## Developers
 
 | Repository | What is inside |
 |---|---|
-| [replyze](https://github.com/Replyze/replyze) | Embed code, JavaScript API, REST API, webhooks and the OpenAPI spec, with examples in cURL, Node.js, Python and PHP |
+| [replyze](https://github.com/Replyze/replyze) | Embed code, JavaScript API, REST API, webhooks and the OpenAPI spec, with tested examples in cURL, Node.js, Python and PHP |
 | [replyze-mcp](https://github.com/Replyze/replyze-mcp) | MCP server: Claude, Cursor and VS Code read and answer your customer conversations and search your knowledge base |
 | [knowledge-base-mcp-server](https://github.com/Replyze/knowledge-base-mcp-server) | Your public help center as an MCP server: anyone's assistant can search and cite your articles, no key needed |
 | [ai-customer-support-agent](https://github.com/Replyze/ai-customer-support-agent) | A small Python AI support agent that answers only from your docs, cites them and hands off to a person, with evals |
@@ -68,3 +71,7 @@ Your token is in the [dashboard](https://client.replyze.chat/?utm_source=github&
 | [ai-chatbot-for-website](https://github.com/Replyze/ai-chatbot-for-website) | An AI chatbot trained on your own pages: how it reads a site, writing pages it can use, and tested code for Docusaurus, VitePress, MkDocs, Starlight and Nextra |
 | [whatsapp-chat-button](https://github.com/Replyze/whatsapp-chat-button) | A free WhatsApp chat button for any website, with a [generator](https://replyze.github.io/whatsapp-chat-button/): one script tag, no tracking |
 | [awesome-live-chat](https://github.com/Replyze/awesome-live-chat) | A curated list of live chat and customer support software: open source, hosted, AI agents, SDKs and MCP servers |
+
+## Help
+
+Questions about your account or the AI agent: **support@replyze.chat** or the chat on [replyze.chat](https://replyze.chat/?utm_source=github&utm_medium=profile&utm_content=support). A bug in one of these repositories: open an issue there. Missing an integration: open an issue with the **Integration request** form. Security: see our [security policy](https://github.com/Replyze/.github/blob/main/SECURITY.md).
