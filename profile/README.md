@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://replyze.chat/?utm_source=github&utm_medium=profile">
+<a href="https://replyze.chat/?utm_source=github&utm_medium=referral&utm_campaign=profile">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Replyze/.github/main/assets/logo-on-dark.png">
     <img src="https://raw.githubusercontent.com/Replyze/.github/main/assets/logo-on-light.png" alt="Replyze" height="56">
@@ -9,8 +9,8 @@
 
 ### AI customer support: an AI agent that answers from your docs, live chat on your website and one inbox for every channel
 
-[![Create a free account](https://img.shields.io/badge/Create_a_free_account-1eabd2?style=for-the-badge)](https://client.replyze.chat/register?utm_source=github&utm_medium=profile&utm_content=cta-top)
-[![Live demo](https://img.shields.io/badge/Live_demo-replyze.chat-0b0f17?style=for-the-badge)](https://replyze.chat/?utm_source=github&utm_medium=profile&utm_content=live-demo)
+[![Create a free account](https://img.shields.io/badge/Create_a_free_account-1eabd2?style=for-the-badge)](https://client.replyze.chat/register?utm_source=github&utm_medium=referral&utm_campaign=profile&utm_content=cta-top)
+[![Live demo](https://img.shields.io/badge/Live_demo-replyze.chat-0b0f17?style=for-the-badge)](https://replyze.chat/?utm_source=github&utm_medium=referral&utm_campaign=profile&utm_content=live-demo)
 [![Developer docs](https://img.shields.io/badge/Developers-Docs-2ea44f?style=for-the-badge)](https://github.com/Replyze/replyze)
 
 </div>
@@ -25,11 +25,11 @@
 - **Help center** with articles that the AI answers from, and that customers can read on their own.
 - **API, webhooks and an MCP server**, so your own tools and AI assistants can work with your conversations.
 
-The live demo is replyze.chat itself: the chat bubble in the corner of [replyze.chat](https://replyze.chat/?utm_source=github&utm_medium=profile&utm_content=live-demo) is the Replyze widget. Plans: [replyze.chat/pricing](https://replyze.chat/pricing?utm_source=github&utm_medium=profile).
+The live demo is replyze.chat itself: the chat bubble in the corner of [replyze.chat](https://replyze.chat/?utm_source=github&utm_medium=referral&utm_campaign=profile&utm_content=live-demo) is the Replyze widget. Plans: [replyze.chat/pricing](https://replyze.chat/pricing?utm_source=github&utm_medium=referral&utm_campaign=profile).
 
 ## Start in two minutes
 
-1. [Create a free account](https://client.replyze.chat/register?utm_source=github&utm_medium=profile&utm_content=quickstart) and copy your widget token (`wgt_...`) from **Settings → Integrations → Install widget**.
+1. [Create a free account](https://client.replyze.chat/register?utm_source=github&utm_medium=referral&utm_campaign=profile&utm_content=quickstart) and copy your widget token (`wgt_...`) from **Settings → Integrations → Install widget**.
 2. Pick your stack:
 
 | You use | Start here | Install |
@@ -74,4 +74,4 @@ On a plain website, this is all it takes:
 
 ## Help
 
-Questions about your account or the AI agent: **support@replyze.chat** or the chat on [replyze.chat](https://replyze.chat/?utm_source=github&utm_medium=profile&utm_content=support). A bug in one of these repositories: open an issue there. Missing an integration: open an issue with the **Integration request** form. Security: see our [security policy](https://github.com/Replyze/.github/blob/main/SECURITY.md).
+Questions about your account or the AI agent: **support@replyze.chat** or the chat on [replyze.chat](https://replyze.chat/?utm_source=github&utm_medium=referral&utm_campaign=profile&utm_content=support). A bug in one of these repositories: open an issue there. Missing an integration: open an issue with the **Integration request** form. Security: see our [security policy](https://github.com/Replyze/.github/blob/main/SECURITY.md).

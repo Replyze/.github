@@ -1,7 +1,7 @@
 blank_issues_enabled: true
 contact_links:
   - name: Question about your Replyze account, billing or the AI agent
-    url: https://replyze.chat/?utm_source=github&utm_medium=issue-template
+    url: https://replyze.chat/?utm_source=github&utm_medium=referral&utm_campaign=issue-template
     about: Open the chat on replyze.chat, or email support@replyze.chat. A person answers.
   - name: Developer docs (widget, JavaScript API, REST API, webhooks, MCP)
     url: https://github.com/Replyze/replyze
