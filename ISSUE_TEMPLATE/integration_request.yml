@@ -1,0 +1,23 @@
+name: Integration request
+description: Ask for a platform, framework or tool that Replyze should work with.
+labels: [integration-request]
+body:
+  - type: input
+    id: platform
+    attributes:
+      label: Platform, framework or tool
+      placeholder: "Svelte, Astro, Ghost, Bubble, Zapier, HubSpot ..."
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: What do you want to do?
+      description: What the integration should do for you and your customers.
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: What do you do today?
+      description: The workaround you use now, if any (for example the plain embed code).

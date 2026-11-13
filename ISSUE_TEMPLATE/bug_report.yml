@@ -1,0 +1,45 @@
+name: Bug report
+description: Something in this repository does not work as documented.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Never paste API keys (`rpz_live_...`), your identity secret or customer data. A widget token (`wgt_...`) is public and fine to include.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The package, plugin or commit you use.
+      placeholder: "@replyze/react 0.1.0, WordPress plugin 1.2.0, commit abc1234 ..."
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Framework, platform and browser or device, with versions.
+      placeholder: "Next.js 15, React 19, Chrome 140 / Expo 54 on Android 15 / WordPress 7.1, PHP 8.3"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The smallest code or steps that show the problem.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console errors or logs
+      description: Browser console, server log or build output.
+      render: text
