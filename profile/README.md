@@ -70,6 +70,7 @@ On a plain website, this is all it takes:
 |---|---|
 | [ai-chatbot-for-website](https://github.com/Replyze/ai-chatbot-for-website) | An AI chatbot trained on your own pages: how it reads a site, writing pages it can use, and tested code for Docusaurus, VitePress, MkDocs, Starlight and Nextra |
 | [whatsapp-chat-button](https://github.com/Replyze/whatsapp-chat-button) | A free WhatsApp chat button for any website, with a [generator](https://replyze.github.io/whatsapp-chat-button/): one script tag, no tracking |
+| [customer-service-templates](https://github.com/Replyze/customer-service-templates) | Free customer service templates: email templates for tough situations, canned responses, an AI chatbot prompt, ChatGPT prompts and replies for 21 industries |
 | [awesome-live-chat](https://github.com/Replyze/awesome-live-chat) | A curated list of live chat and customer support software: open source, hosted, AI agents, SDKs and MCP servers |
 
 ## Help
