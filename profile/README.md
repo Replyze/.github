@@ -63,6 +63,7 @@ On a plain website, this is all it takes:
 | [replyze-mcp](https://github.com/Replyze/replyze-mcp) | MCP server: Claude, Cursor and VS Code read and answer your customer conversations and search your knowledge base |
 | [knowledge-base-mcp-server](https://github.com/Replyze/knowledge-base-mcp-server) | Your public help center as an MCP server: anyone's assistant can search and cite your articles, no key needed |
 | [ai-customer-support-agent](https://github.com/Replyze/ai-customer-support-agent) | A small Python AI support agent that answers only from your docs, cites them and hands off to a person, with evals |
+| [n8n-chat-widget](https://github.com/Replyze/n8n-chat-widget) | n8n workflows for the Replyze chat: answer with your own n8n AI agent and hand off to your team, or send new chats to Slack and leads to Google Sheets, with signed webhooks |
 
 ## Guides and free tools
 
