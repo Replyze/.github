@@ -46,6 +46,7 @@ Your token is in the [dashboard](https://client.replyze.chat/?utm_source=github&
 
 | Repository | What is inside |
 |---|---|
+| [react-live-chat](https://github.com/Replyze/react-live-chat) | React and Next.js component and hooks: the chat loads after your page, with typed events and identity verification |
 | [wordpress-live-chat](https://github.com/Replyze/wordpress-live-chat) | WordPress plugin: the chat on any WordPress or WooCommerce site, signed-in customers recognized |
 | [react-native-live-chat](https://github.com/Replyze/react-native-live-chat) | Live chat and AI support inside React Native and Expo apps |
 | [flutter-live-chat](https://github.com/Replyze/flutter-live-chat) | Live chat and AI support inside Flutter apps for iOS and Android |
@@ -57,3 +58,13 @@ Your token is in the [dashboard](https://client.replyze.chat/?utm_source=github&
 |---|---|
 | [replyze](https://github.com/Replyze/replyze) | Embed code, JavaScript API, REST API, webhooks and the OpenAPI spec, with examples in cURL, Node.js, Python and PHP |
 | [replyze-mcp](https://github.com/Replyze/replyze-mcp) | MCP server: Claude, Cursor and VS Code read and answer your customer conversations and search your knowledge base |
+| [knowledge-base-mcp-server](https://github.com/Replyze/knowledge-base-mcp-server) | Your public help center as an MCP server: anyone's assistant can search and cite your articles, no key needed |
+| [ai-customer-support-agent](https://github.com/Replyze/ai-customer-support-agent) | A small Python AI support agent that answers only from your docs, cites them and hands off to a person, with evals |
+
+## Guides and free tools
+
+| Repository | What is inside |
+|---|---|
+| [ai-chatbot-for-website](https://github.com/Replyze/ai-chatbot-for-website) | An AI chatbot trained on your own pages: how it reads a site, writing pages it can use, and tested code for Docusaurus, VitePress, MkDocs, Starlight and Nextra |
+| [whatsapp-chat-button](https://github.com/Replyze/whatsapp-chat-button) | A free WhatsApp chat button for any website, with a [generator](https://replyze.github.io/whatsapp-chat-button/): one script tag, no tracking |
+| [awesome-live-chat](https://github.com/Replyze/awesome-live-chat) | A curated list of live chat and customer support software: open source, hosted, AI agents, SDKs and MCP servers |
